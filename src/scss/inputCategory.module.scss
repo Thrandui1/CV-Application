@@ -1,0 +1,15 @@
+.inputCategory {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.title {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    font-weight: 500;
+    color: rgb(73, 124, 199);
+    text-decoration: underline;
+}

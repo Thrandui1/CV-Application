@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 8px 12px -10px rgba(0, 0, 0, 0.15);
+    
+
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Roboto Slab';
+    }
+
+    button {
+        background: linear-gradient(to bottom, rgba(255, 0, 0, 0.678), rgb(196, 3, 3));
+        padding: 5px 12px;
+        color: white;
+        font-weight: 600;
+        font-size: 1rem;
+        border-radius: 22px;
+        border: 0;
+        cursor: pointer;
+        box-shadow: 0 4px 4px rgba(17, 1, 1, 0.534);
+    }
+
+    button:hover {
+        transform: scale(1.02);
+    }
+}
+
+@media print {
+  .header {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) {
+    .header {
+        padding: 14px 18px;
+
+        .title {
+            font-size: 24px;
+        }
+
+        button {
+            font-size: 0.9rem;
+            padding: 7px 14px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 16px 24px;
+
+        .title {
+            font-size: 28px;
+        }
+
+        button {
+            font-size: 1rem;
+            padding: 8px 16px;
+        }
+    }
+}
+
+@media print {
+    .header {
+        display: none;
+    }
+}

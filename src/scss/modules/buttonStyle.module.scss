@@ -1,0 +1,46 @@
+.buttonRow {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        font-family: "Roboto Slab";
+        padding: 2px 10px;
+        border-radius: 4px;
+        background: #fff;
+        border: 1px solid rgba(255, 0, 0, 0.678);
+        color: rgba(255, 0, 0, 0.678);
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    button:hover {
+        background: rgba(255, 0, 0, 0.678);
+        color: #fff;
+    }
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+
+    .buttonExp {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 6px;
+        background: #fff;
+        border: 1px solid #66afe9;
+        color: #0083ee;
+        cursor: pointer;
+        font-size: 14px;
+        transition: all 0.2s ease;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+        font-family: "Roboto Slab";
+        font-size: 1rem;
+    }
+
+    .buttonExp:hover {
+        background: #66afe9;
+        color: #fff;
+    }
+}

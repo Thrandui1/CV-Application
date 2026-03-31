@@ -1,0 +1,64 @@
+.rightBlock {
+    display: flex;
+    justify-content: center;
+    // max-width: 600px;
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.06),
+        0 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    flex: 2;
+    min-width: 280px;
+
+    .infoPdf {
+        display: flex;
+        width: 100%;
+        padding: 25px;
+
+        .leftPdf {
+            display: flex;
+        }
+
+        .rightPdf {
+            display: flex;
+            width: 100%;
+        }
+    }
+
+}
+
+@media print {
+  .rightBlock {
+    height: 1000px;
+    box-shadow: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+    .rightBlock {
+        display: flex;
+        flex: 1;
+        width: 80%;
+        min-width: 0;
+
+        .infoPdf {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    }
+}
+
+@media (max-width: 576px) {
+    .rightBlock {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        min-width: 0;
+
+        .infoPdf {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    }
+}

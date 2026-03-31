@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="32" fill="#FF8C00"/>
+
+  <!-- Документ -->
+  <rect x="18" y="14" width="28" height="36" rx="3" fill="#fff"/>
+  <line x1="22" y1="22" x2="36" y2="22" stroke="#FF8C00" stroke-width="2"/>
+  <line x1="22" y1="28" x2="36" y2="28" stroke="#FF8C00" stroke-width="2"/>
+
+  <!-- Буква i -->
+  <circle cx="32" cy="36" r="2" fill="#FF8C00"/>
+  <rect x="30" y="30" width="4" height="10" rx="2" fill="#FF8C00"/>
+</svg>

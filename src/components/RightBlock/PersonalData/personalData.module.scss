@@ -1,0 +1,72 @@
+.personalData {
+  display: flex;
+  flex-direction: column;
+  // background-color: rgba(206, 206, 206, 0.137);
+  gap: 10px;
+
+  .imageContainer {
+    display: flex;
+    align-self: center;
+    max-width: 220px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+  }
+
+  .imageContainer img {
+    width: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .personalInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .fullName {
+      display: flex;
+      font-size: 1.2rem;
+      font-family: "Roboto Slab";
+      color: rgb(73, 124, 199);
+    }
+
+    .dob {
+      display: flex;
+    }
+
+    .emailContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .icon {
+        width: 25px;
+        height: 25px;
+        color: orange;
+      }
+    }
+
+    .numberContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      .widget {
+        display: flex;
+        gap: 5px;
+
+        .icon {
+          width: 25px;
+          height: 25px;
+        }
+      }
+
+      .number {
+        display: flex;
+      }
+    }
+  }
+}

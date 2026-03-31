@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Roboto Slab";
+
+  .main {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 18px;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .app {
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

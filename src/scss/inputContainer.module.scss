@@ -1,0 +1,68 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    label {
+        font-size: 1.1rem;
+    }
+
+    input {
+        box-shadow: inset 0 0px 1px rgba(121, 121, 121, 0.904);
+        outline: none;
+        border: 1px solid #b9b9b9;
+        font-size: 0.9rem;
+        padding: 2px 6px;
+        color: rgba(58, 58, 58, 0.904);
+        font-family: "Roboto Slab";
+        border-radius: 2px;
+        width: 175px;
+        cursor: text;
+    }
+
+    input:focus {
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+        border-color: #66afe9;
+        outline: 0;
+    }
+
+    .hiddenFileInput {
+        display: none;
+    }
+
+    .fileButton {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 6px;
+        background: #fff;
+        border: 1px solid #66afe9;
+        color: #0083ee;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: all 0.2s ease;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+    }
+
+    .fileButton:hover {
+        background: #66afe9;
+        color: #fff;
+    }
+
+    .fileButton:active {
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.12);
+    }
+
+}
+
+input[type="file"] {
+    font-size: 0;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    font-size: 14px;
+}
+
+input[type="date"] {
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+<svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <!-- Фон круга -->
+    <circle cx="32" cy="32" r="32" fill="#FF8C00" />
+
+    <!-- Тело конверта -->
+    <rect x="12" y="22" width="40" height="20" rx="4" ry="4" fill="#FFFFFF" />
+
+    <!-- Клапан конверта -->
+    <polygon points="12,22 32,38 52,22" fill="#FFFFFF" />
+
+    <!-- Контур клапана для объёма -->
+    <path d="M12,22 L32,38 L52,22" stroke="#FFA500" stroke-width="2" fill="none" />
+</svg>

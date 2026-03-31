@@ -1,0 +1,120 @@
+.generalInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    gap: 50px;
+
+    .experiencePdf {
+        display: flex;
+        padding-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+        min-height: 10%;
+
+        .title {
+            display: flex;
+            gap: 10px;
+            color: rgb(73, 124, 199);
+
+            .icon {
+                width: 25px;
+                height: 25px;
+            }
+
+            span {
+                font-size: 1.1rem;
+                font-weight: 500;
+            }
+        }
+
+        .experienceContent {
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
+
+            .experienceItem {
+                display: flex;
+                font-size: 1rem;
+                flex-direction: column;
+
+                .newString {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6px;
+
+
+                    .label {
+                        color: #8d8d8d;
+                    }
+
+                    .value {
+                        font-weight: 500;
+                        color: black;
+                    }
+
+                    .row {
+                        display: flex;
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .educationPdf {
+        display: flex;
+        padding-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+
+        .title {
+            display: flex;
+            gap: 10px;
+            color: rgb(73, 124, 199);
+
+            .icon {
+                width: 25px;
+                height: 25px;
+            }
+
+            span {
+                font-size: 1.1rem;
+                font-weight: 500;
+            }
+        }
+
+        .educationContent {
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
+
+            .educationItem {
+                display: flex;
+                font-size: 1rem;
+                flex-direction: column;
+
+                .newString {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6px;
+
+
+                    .label {
+                        color: #8d8d8d;
+                    }
+
+                    .value {
+                        font-weight: 500;
+                        color: black;
+                    }
+
+                    .row {
+                        display: flex;
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
